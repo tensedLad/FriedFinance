@@ -1,11 +1,11 @@
 # Robots.txt for FriedFinance
-# https://friedfinance.com
+# https://www.befierce.in
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://friedfinance.com/sitemap.xml
+Sitemap: https://www.befierce.in/sitemap.xml
 
 # Crawl-delay for politeness (optional)
 Crawl-delay: 1

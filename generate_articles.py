@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 
 # Configuration
-BASE_DIR = Path(r"c:\Users\yashl\OneDrive\Desktop\FriedFinance")
+BASE_DIR = Path(os.path.dirname(os.path.abspath(__file__)))
 DOMAIN = "https://friedfinance.com"
 
 # Category mappings
@@ -604,6 +604,10 @@ def generate_html(article, category, filename):
     </div>
   </div>
 
+  <script type="module">
+    import {{ inject }} from 'https://esm.sh/@vercel/analytics';
+    inject();
+  </script>
   <script src="{js_path}"></script>
 </body>
 </html>'''
