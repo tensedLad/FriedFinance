@@ -15,3 +15,8 @@ Thumbs.db
 
 # Agent
 .gemini/
+
+# Development files
+*.md
+generate_articles.py
+fix-links.ps1
