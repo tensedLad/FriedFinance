@@ -226,6 +226,7 @@ def generate_html(article, category, filename):
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-adsense-account" content="ca-pub-6158162826294091">
   <meta name="description" content="{meta_desc}">
   <meta property="og:title" content="{title} | FriedFinance">
   <meta property="og:description" content="{meta_desc}">
@@ -240,6 +241,8 @@ def generate_html(article, category, filename):
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{css_path}">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6158162826294091"
+     crossorigin="anonymous"></script>
   <script type="application/ld+json">
   {{
     "@context": "https://schema.org",
